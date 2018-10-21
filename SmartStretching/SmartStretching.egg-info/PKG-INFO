@@ -1,7 +1,7 @@
 Metadata-Version: 1.1
-Name: myapp
+Name: SmartStretching
 Version: 0.1
-Summary: smartstrech
+Summary: SmartStretchingAPI
 Home-page: UNKNOWN
 Author: UNKNOWN
 Author-email: UNKNOWN
@@ -9,7 +9,7 @@ License: UNKNOWN
 Description: Documentation
         =============
         
-        Put a brief description of 'smartstrech'.
+        Put a brief description of 'SmartStretchingAPI'.
         
 Keywords: web services
 Platform: UNKNOWN

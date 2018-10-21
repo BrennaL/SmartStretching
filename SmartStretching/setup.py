@@ -7,9 +7,9 @@ with open(os.path.join(here, 'README.rst')) as f:
     README = f.read()
 
 
-setup(name='myapp',
+setup(name='SmartStretching',
       version=0.1,
-      description='smartstrech',
+      description='SmartStretchingAPI',
       long_description=README,
       classifiers=[
           "Programming Language :: Python",
@@ -27,6 +27,6 @@ setup(name='myapp',
       install_requires=['cornice', 'waitress'],
       entry_points="""\
       [paste.app_factory]
-      main=myapp:main
+      main=SmartStretching:main
       """,
       paster_plugins=['pyramid'])
