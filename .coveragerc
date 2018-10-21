@@ -1,0 +1,3 @@
+[run]
+source = SmartStretching
+omit = SmartStretching/test*
