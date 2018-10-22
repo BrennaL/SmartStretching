@@ -1,2 +1,5 @@
 #do not add
 *.idea
+SmartStretching/env
+SmartStretching/__pycache__
+SmartStretching/SmartStretching/__pycache__
