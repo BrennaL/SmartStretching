@@ -1,2 +1,6 @@
 cornice
 waitress
+numpy
+pandas
+pymc3
+matplotlib

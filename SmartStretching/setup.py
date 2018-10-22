@@ -24,7 +24,7 @@ setup(name='SmartStretching',
       packages=find_packages(),
       include_package_data=True,
       zip_safe=False,
-      install_requires=['cornice', 'waitress'],
+      install_requires=['cornice', 'waitress','numpy','pandas','pymc3','matplotlib'],
       entry_points="""\
       [paste.app_factory]
       main=SmartStretching:main
