@@ -1,0 +1,15 @@
+# - docker compose file for the iaicourse
+version: "3"
+services:
+  stretch:
+    container_name: smart-stretch
+    image: lmok/smart-stretch
+    build:
+      dockerfile: ./docker/DockerFile
+      context:    ..
+    ports:
+      - 80:6543
+    volumes:
+      # - persist data (hashname)
+      - ~/.iaicourse:/mnt/iaicourse
+    network_mode: host
