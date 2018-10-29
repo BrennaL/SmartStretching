@@ -1,5 +1,7 @@
 README.rst
+setup.py
 SmartStretching/Agents.py
+SmartStretching/ExperimentSim.py
 SmartStretching/__init__.py
 SmartStretching/views.py
 SmartStretching.egg-info/PKG-INFO

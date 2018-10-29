@@ -18,12 +18,6 @@ def get_info(request):
 
 @stretch.get()
 def get_video(request):
-    video_collection = { 'shoulders' : '',
-                         'neck': '',
-                         'wrist': '',
-                         'legs':'',
-                         }
-
     return {}
 
 
